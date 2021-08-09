@@ -1,0 +1,21 @@
+.nav__btn{
+    color: $text-color;
+    background-color: $secondary-color;
+    margin: 5px 10px;
+    padding: 0px 30px;
+}
+
+.hero__btn{
+    background-color: $secondary-color;
+    color: $text-color;
+    margin:5px 10px;
+    padding:0px 40px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.form__btn{
+    background-color: $primary-color;
+    color: $text-color;
+    margin: 15px;
+}

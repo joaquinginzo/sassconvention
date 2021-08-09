@@ -1,0 +1,47 @@
+// @import
+@import "assets/styles/_variables";
+@import "assets/styles/_buttons";
+@import "assets/styles/typography";
+// @use 
+
+
+.nav{
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    .nav__title{
+        color: $text-color;
+        margin-left: 20px;
+        font-family: $primary-font;
+    }
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+        .hero__title{
+            color: $primary-color;
+            font: $secondary-font;
+        }
+        .hero_subtitle{
+            color: $tertiary-color;
+            font: $primary-font;
+        }
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px black solid;
+    width: 15vw;
+    margin: auto;
+    background-color: $form-color;
+    .form__item{
+        margin: 10px 15px;
+    }
+}

@@ -1,0 +1,62 @@
+.nav__btn {
+  color: white;
+  background-color: #bf9000;
+  margin: 5px 10px;
+  padding: 0px 30px;
+}
+
+.hero__btn {
+  background-color: #bf9000;
+  color: white;
+  margin: 5px 10px;
+  padding: 0px 40px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.form__btn {
+  background-color: #1c4587;
+  color: white;
+  margin: 15px;
+}
+
+.nav {
+  background-color: #1c4587;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav__title {
+  color: white;
+  margin-left: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.hero .hero__title {
+  color: #1c4587;
+  font: "Times New Roman", Times, serif;
+}
+.hero .hero_subtitle {
+  color: black;
+  font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px black solid;
+  width: 15vw;
+  margin: auto;
+  background-color: lightgray;
+}
+.form .form__item {
+  margin: 10px 15px;
+}
